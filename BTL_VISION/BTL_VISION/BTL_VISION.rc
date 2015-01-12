@@ -1,0 +1,319 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\BTL_VISION.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BTL_VISION.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BTL_VISION_DIALOG DIALOGEX 0, 0, 854, 457
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE | WS_EX_APPWINDOW
+CAPTION "芜湖哈特机器人产业技术研究院有限公司"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MSCOMM1,"{648A5600-2C6E-101B-82B6-000000000014}",WS_TABSTOP,414,313,25,23
+    CONTROL         "",IDC_IMG,"Static",SS_BLACKFRAME,7,0,419,302
+    PUSHBUTTON      "A1",IDC_A1,803,3,50,14
+    PUSHBUTTON      "1.1 A2",IDC_A2,803,19,50,14
+    EDITTEXT        IDC_TOP_VALUE_A1,559,193,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A1,610,193,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A1,652,193,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHT_A1,704,193,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHT_VALUE_A1,746,193,91,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_LEFT_A1,517,209,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A1,559,209,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A1,610,209,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A1,652,209,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A1,704,209,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_RESULT_VALUE_A1,746,209,92,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_TOP_A2,517,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A2,559,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A2,610,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A2,652,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A2,704,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A2,746,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A2,517,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A2,559,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A2,610,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A2,652,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A2,704,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A2,746,244,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A2,799,228,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_A5,517,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A5,559,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A5,610,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A5,652,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A5,704,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A5,746,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A5,517,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A5,559,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A5,610,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A5,652,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A5,704,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A5,746,347,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A5,799,331,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_A6,517,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A6,559,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A6,610,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A6,652,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A6,704,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A6,746,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A6,517,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A6,559,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A6,610,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A6,652,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A6,704,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A6,746,383,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A6,799,367,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_A7,517,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A7,559,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A7,610,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A7,652,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A7,704,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A7,746,403,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A7,517,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A7,559,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A7,610,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A7,652,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A7,704,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A7,746,419,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A7,799,403,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "图像参数",IDC_IMG_PAR,514,179,339,278
+    CONTROL         "",IDC_IMG_ROI,"Static",SS_BLACKFRAME,437,0,133,166
+    CONTROL         "",IDC_DISPLAY,"Static",SS_BLACKFRAME,7,374,422,61
+    EDITTEXT        IDC_TOP_A1,517,193,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_IMG_ROI2,"Static",SS_BLACKFRAME,576,0,133,42
+    CONTROL         "",IDC_IMG_ROI3,"Static",SS_BLACKFRAME,576,49,133,40
+    PUSHBUTTON      "3.1 A6",IDC_A6,803,88,50,14
+    PUSHBUTTON      "SHOW",IDC_SHOW,803,123,50,14
+    PUSHBUTTON      "3.2 A7",IDC_A7,803,105,50,14
+    PUSHBUTTON      "2.0 A5",IDC_A5,803,70,50,14
+    PUSHBUTTON      "保存",IDC_SAVE,803,140,50,14
+    EDITTEXT        IDC_TOP_A3,517,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A3,559,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A3,609,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A3,651,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A3,703,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A3,745,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A3,517,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A3,559,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A3,609,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A3,651,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A3,703,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A3,745,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A3,799,264,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_A4,518,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOP_VALUE_A4,560,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_A4,610,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIGH_VALUE_A4,652,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_A4,704,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE1_A4,746,297,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_A4,518,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_VALUE_A4,560,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_A4,610,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WIDE_VALUE_A4,652,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_A4,704,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RESULT_VALUE_A4,746,313,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_VALUE2_A4,799,297,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "1.2 A3",IDC_A3,803,35,50,14
+    PUSHBUTTON      "1.3 A4",IDC_A4,803,52,50,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA2,799,244,40,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA3,799,281,40,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA4,799,314,40,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA5,799,348,40,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA6,799,385,40,14
+    PUSHBUTTON      "SAVE",IDC_BUTTON_SA7,799,420,40,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BTL_VISION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 853
+        BOTTOMMARGIN, 456
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_BTL_VISION_DIALOG DLGINIT
+BEGIN
+    IDC_MSCOMM1, 0x376, 102, 0
+0x0013, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0034, 0x0020, 0x4321, 0x1234, 0x0008, 0x0000, 0x03ed, 0x0000, 
+0x03ed, 0x0000, 0x5601, 0x648a, 0x0000, 0x0006, 0x0000, 0x0001, 0x0400, 
+0x0000, 0x0200, 0x0000, 0x2580, 0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x003f, 0x0000, 0x0001, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\a1.bmp"
+IDB_BITMAP2             BITMAP                  "BMP\\Windows7.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "BTL_VISION.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "BTL_VISION.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\BTL_VISION.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
